@@ -4,6 +4,7 @@ include_directories(${CMAKE_SOURCE_DIR}/vendors/glfw)
 include_directories(${CMAKE_SOURCE_DIR}/vendors/imgui)
 
 add_library(imgui SHARED 
+  imgui_demo.cpp
   imgui_draw.cpp
   imgui_tables.cpp 
   imgui_widgets.cpp 
